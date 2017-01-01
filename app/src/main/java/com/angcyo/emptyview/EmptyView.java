@@ -178,4 +178,20 @@ public class EmptyView extends View {
                 3 * height + 2 * mVSpace);
         canvas.drawRoundRect(mRectFLittle, mRoundRadius, mRoundRadius, mPaint);
     }
+
+    public void setDefaultColor(int defaultColor) {
+        this.defaultColor = defaultColor;
+    }
+
+    public void setHSpace(int HSpace) {
+        mHSpace = HSpace;
+    }
+
+    public void setRoundRadius(int roundRadius) {
+        mRoundRadius = roundRadius;
+    }
+
+    public void setVSpace(int VSpace) {
+        mVSpace = VSpace;
+    }
 }
