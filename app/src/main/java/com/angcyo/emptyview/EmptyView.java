@@ -137,23 +137,6 @@ public class EmptyView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-
-//        for (int i = 1; i <= mGroupCount; i++) {
-//            //绘制大的矩形
-//            mRectF.set(getPaddingLeft(),
-//                    getPaddingTop() + (i - 1) * mDefaultGroupHeight + (i - 1) * mVSpace,
-//                    getPaddingLeft() + mDefaultGroupHeight,
-//                    getPaddingTop() + i * mDefaultGroupHeight + (i - 1) * mVSpace);
-//            canvas.drawRoundRect(mRectF, mRoundRadius, mRoundRadius, mPaint);
-//
-//            //绘制三个小矩形
-//            mRectF.set(getPaddingLeft(),
-//                    getPaddingTop() + (i - 1) * mDefaultGroupHeight + (i - 1) * mVSpace,
-//                    getPaddingLeft() + mDefaultGroupHeight,
-//                    getPaddingTop() + i * mDefaultGroupHeight + (i - 1) * mVSpace);
-//            canvas.drawRoundRect(mRectF, mRoundRadius, mRoundRadius, mPaint);
-//        }
-
         canvas.save();
         canvas.translate(getPaddingLeft(), getPaddingTop());
         mRectF.set(0, 0, mDefaultGroupHeight, mDefaultGroupHeight);
