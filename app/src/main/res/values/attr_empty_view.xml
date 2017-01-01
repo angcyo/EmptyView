@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EmptyView">
+        <!--颜色-->
+        <attr name="ev_default_color" format="color"/>
+        <!--有多少个组, 在高度warp_content属性中生效, match_parent属性自动通过高度计算数量-->
+        <attr name="ev_group_count" format="integer"/>
+        <!--每一组的高度, 一组由一个大的三个小的矩形组成-->
+        <attr name="ev_group_height" format="dimension"/>
+        <!--大矩形和小矩形之间的空隙-->
+        <attr name="ev_h_space" format="dimension"/>
+        <!--组与组之间和小矩形之间的竖直空隙-->
+        <attr name="ev_v_space" format="dimension"/>
+        <!--圆角的大小-->
+        <attr name="ev_round_radius" format="dimension"/>
+    </declare-styleable>
+</resources>
